@@ -1,0 +1,16 @@
+#ifndef p_square
+#define p_square
+
+#include <iostream>
+#include <cmath>
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+This program will find the solution of a diophantine equation, should one exist. If a soltiuon does not exist
+however, the user will be informed as such. 
+
+Input: three integers a,b,c
+Output: true if there is a solution, false if there isn't
+*////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#endif
