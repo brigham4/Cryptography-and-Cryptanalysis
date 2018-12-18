@@ -4,8 +4,6 @@
 #include <iostream>
 #include <cmath>
 
-//There is currently a floating point exception bug that I cannot seem to work out. Saving to work on later.
-
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 This program will find the solution of a diophantine equation, should one exist. If a soltiuon does not exist
 however, the user will be informed as such. 
@@ -26,7 +24,7 @@ bool Diophantine::solve(int a, int b, int c){
     GCD GCDinst;
     int gcd_ab = GCDinst.compute(a,b);
 
-    if(sum % gcd_ab == 0){
+    if(c % GCDinst.compute(a,b) == 0){
         //There exists a solution
         return true;
     }
