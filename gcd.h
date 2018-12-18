@@ -3,14 +3,14 @@
 
 #include <iostream>
 #include <cmath>
-// using namespace std;
   
-/*This program to executes the Euclidean algorithm on two numbers and returns their GCD. 
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+This program to executes the Euclidean algorithm on two numbers and returns their GCD. 
 When run, the program will ask the user to present two integers.
 
 Input: two integers: a,b
 Output: GCD(a,b)
-*/
+*////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 class GCD{
