@@ -24,10 +24,14 @@
 /We believe this error is also occuring due to the numbers being too large to be held by long or long long.
 
 /If you would like to try encrypting a message, try the following parameters:
-/public key: 5
-/modulus: 133
-/message: 10
-/the program should print out the cipher text: 117
+/public key: 11
+/modulus: 119
+/message: 4
+/the program should print out the cipher text: 30
+/We note that the private key associated with 11 is 35. Because of this, decryption will be 30^35 mod 119. It seems to be the
+/case that 30^35 is simply too large to be stored (as a long or long long) to do further computation on. I have played around 
+/with other keys and messages but cannot seem to find ones small enough. Perhaps it is a bug in the code instead of a storage 
+/issue, if so, I'm not sure what it is presently.
 */////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class RSA{
