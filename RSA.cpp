@@ -3,12 +3,10 @@
 int main() {
     RSA RSAobj;
 
-    //RSAobj.set_n();
-    //RSAobj.set_m();
-    //RSAobj.set_e();
-    //RSAobj.compute_d();
     RSAobj.prompt();
-
+    //RSAobj.prime_generation();
+    //RSAobj.set_modulus();
+    //RSAobj.gcd(32553,4132432);
     return 0;
 }
 
