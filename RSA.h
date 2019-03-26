@@ -1,5 +1,5 @@
 #ifndef RSA_H
-#define RSA_H\
+#define RSA_H
 
 #include <iostream>
 #include <cmath>
@@ -15,7 +15,7 @@
 /Through its auxiliary functions, the user may obtain all necessary parameters to execute RSA on paper. They are as follows:
 /   -set_modulus(): modulus
 /   -set_public_key(): public key
-/   -set_m(): totient of the modulus, used to calculate d
+/   -set_m(): totient of the modulus, used to calculate public and private keys
 /   -set_private_key(): private key 
 /It should be noted that this implementation of RSA cannot deal with very large numbers. At this time, we cannot find
 /a way around this. Due to this, it should not be used for any sensitive data but rather to illustrate the cryptographic 
